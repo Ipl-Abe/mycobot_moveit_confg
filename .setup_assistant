@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: gazebo_simulation_ros2
+    relative_path: urdf/mycobot_280_m5.urdf.xacro
+  srdf:
+    relative_path: config/mycobot_ai_no.srdf
+  package_settings:
+    author_name: Fumiaki Abe
+    author_email: crowsky7275@gmail.com
+    generated_timestamp: 1723292480
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
