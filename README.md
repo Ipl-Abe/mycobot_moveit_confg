@@ -1,0 +1,1 @@
+# mycobot_moveit_confg
